@@ -70,13 +70,13 @@ PocketChat implements a **zero-knowledge architecture**:
                        └─────────────────┘
 ```
 
-### Data Flow
+### (Simplified) Data Flow
 
 1. **Message Creation**: User types message in Frontend
 2. **Local Encryption**: Backend encrypts with recipient's public key
 3. **Relay Transmission**: Encrypted message sent to Relay Server
-4. **Message Retrieval**: Recipient's Backend polls Relay Server
-5. **Local Decryption**: Backend decrypts with recipient's private key
+4. **Message Retrieval**: When online, recipient's backend polls Relay Server
+5. **Local Decryption**: Backend decrypts with recipient's private key and saves locally
 6. **Display**: Frontend displays decrypted message
 
 ## Repository Structure
