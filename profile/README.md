@@ -57,17 +57,24 @@ PocketChat implements a **zero-knowledge architecture**:
 
 ### Component Interaction
 
+
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Drive Linker  │    │  Drive Frontend │    │  Drive Backend  │
-│   (Setup Tool)  │───▶│   (Next.js UI)  │───▶│  (FastAPI Local)│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-                                │                        │
-                                ▼                        │
-                       ┌─────────────────┐               │
-                       │  Relay Server   │◀─────────────-┘
-                       │ (Message Relay) │
+                       ┌─────────────────┐
+                       │   Drive Linker  │
+                       │   (Setup Tool)  │
                        └─────────────────┘
+                          │           │
+                          ▼           ▼
+        ┌─────────────────┐           ┌─────────────────┐
+        │  Drive Frontend │──────────▶│  Drive Backend  │
+        │   (Next.js UI)  │           │  (FastAPI Local)│
+        └─────────────────┘           └─────────────────┘
+                  │
+                  ▼
+        ┌─────────────────┐
+        │  Relay Server   │
+        │ (Message Relay) │
+        └─────────────────┘
 ```
 
 ### (Simplified) Data Flow
