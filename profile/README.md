@@ -106,6 +106,12 @@ PocketChat implements a **zero-knowledge architecture**:
 - **Purpose**: Zero-knowledge message relay
 - **Key Features**: Identity authentication, automatic cleanup, rate limiting
 
+### [Drive-Linker](https://github.com/pocketchat/drive-linker)
+
+- **Language**: System scripts + submodules
+- **Purpose**: Quick single repo pull and command for running Drive-Frontend and Drive-Backend
+- **Key Features**: One liner start command
+
 ### [Website](https://github.com/pocketchat/pocket-chat-website)
 
 - **Language**: TypeScript (Next.js)
