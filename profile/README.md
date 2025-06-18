@@ -1,6 +1,6 @@
 # PocketChat Ecosystem
 
-Welcome to PocketChat - a secure, end-to-end encrypted messaging system that prioritizes privacy and user control.
+Welcome to PocketChat - a secure, end-to-end encrypted messaging system that prioritises privacy and user control.
 
 ## Overview
 
