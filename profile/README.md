@@ -14,7 +14,7 @@ PocketChat consists of three main components that work together to provide secur
 
 ### For Users
 
-1. **Visit our website**: [pocketchat.joebroughton.tech](https://pocketchat.joebroughton.tech)
+1. **Visit the PocketChat website**: [pocketchat.joebroughton.tech](https://pocketchat.joebroughton.tech)
 2. **Follow the setup guide**: Complete step-by-step instructions for all platforms
 3. **Use the Drive Linker**: Automated setup script that coordinates all components
 
