@@ -40,7 +40,7 @@ git clone https://github.com/pocketchat/relay-server.git
 cd relay-server
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
-# Add PostgreSQL database string to .env first
+# Add db connection config.json first
 uvicorn app.main:app --reload
 ```
 
