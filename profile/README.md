@@ -20,29 +20,7 @@ PocketChat consists of three main components that work together to provide secur
 
 ### For Developers
 
-Each repository contains developer-focused documentation:
-
-```bash
-# Backend Development
-git clone https://github.com/pocketchat/drive-backend.git
-cd drive-backend
-python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-
-# Frontend Development
-git clone https://github.com/pocketchat/drive-frontend.git
-cd drive-frontend/pocket-chat-frontend
-npm install && npm run dev
-
-# Relay Server Development
-git clone https://github.com/pocketchat/relay-server.git
-cd relay-server
-python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-# Add db connection config.json first
-uvicorn app.main:app --reload
-```
+Each repository contains developer-focused documentation. Check out the READMEs in the appropriate repositories.
 
 ## Architecture
 
