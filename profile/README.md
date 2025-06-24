@@ -26,12 +26,12 @@ Each repository contains developer-focused documentation. Check out the READMEs 
 
 ### Security Model
 
-Checkout [SECURITY_MODEL.MD]([https://github.com/pocketchat/](https://github.com/PocketChat/Relay-Server/blob/master/SECURITY_MODEL.md)) for more info
+Checkout [SECURITY_MODEL.MD](https://github.com/PocketChat/Relay-Server/blob/master/SECURITY_MODEL.md) for more detail
 
 PocketChat implements a **zero-knowledge architecture**:
 
 - **End-to-End Encryption**: Messages encrypted client-side before transmission
-- **Triple-Layer Security**: AES + RSA + passkey-based storage encryption
+- **Triple-Layer Security**: AES + RSA for message transmission, and passkey-based local storage encryption
 - **Digital Signatures**: Cryptographic message authentication
 - **Local-First**: Sensitive data never leaves your device unencrypted
 
