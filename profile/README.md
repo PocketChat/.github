@@ -26,6 +26,8 @@ Each repository contains developer-focused documentation. Check out the READMEs 
 
 ### Security Model
 
+Checkout [SECURITY_MODEL.MD]([https://github.com/pocketchat/](https://github.com/PocketChat/Relay-Server/blob/master/SECURITY_MODEL.md)) for more info
+
 PocketChat implements a **zero-knowledge architecture**:
 
 - **End-to-End Encryption**: Messages encrypted client-side before transmission
