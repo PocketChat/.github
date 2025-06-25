@@ -20,6 +20,12 @@ If you haven't yet figured it out, one for each dot in our logo.
 2. **Follow the setup guide**: Complete step-by-step instructions for all platforms
 3. **Use the Drive Linker**: Automated setup script that coordinates all components
 
+We host an optional default Relay Server instance for you, but feel free to set up your own! 
+
+Current relay status and version:&nbsp;
+![PocketChat-Hosted Relay Status](https://img.shields.io/badge/dynamic/json?url=https://pocketchatrelay.joebroughton.tech/version&query=$.version&color=brightgreen&label=Version)
+
+
 ### For Developers
 
 Each repository contains developer-focused documentation. Check out the READMEs in the appropriate repositories.
@@ -28,12 +34,12 @@ Each repository contains developer-focused documentation. Check out the READMEs 
 
 ### Security Model
 
-Checkout [SECURITY_MODEL.MD](https://github.com/PocketChat/Relay-Server/blob/master/SECURITY_MODEL.md) for more detail
+Checkout [SECURITY_MODEL.MD](https://github.com/PocketChat/Relay-Server/blob/master/SECURITY_MODEL.md) for the real detail.
 
 PocketChat implements a **zero-knowledge architecture**:
 
 - **End-to-End Encryption**: Messages encrypted client-side before transmission
-- **Triple-Layer Security**: AES + RSA for message transmission, and passkey-based local storage encryption
+- **Multi-Layer Security**: AES + RSA for message transmission, and passkey-based local storage encryption
 - **Digital Signatures**: Cryptographic message authentication
 - **Local-First**: Sensitive data never leaves your device unencrypted
 
