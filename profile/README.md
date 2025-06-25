@@ -1,6 +1,6 @@
 # PocketChat Ecosystem
 
-Welcome to PocketChat - a secure, end-to-end encrypted messaging system that prioritises privacy and user control.
+Welcome to PocketChat - a three-part stack for secure, end-to-end encrypted messaging that prioritises privacy, user control and coolness.
 
 ## Overview
 
@@ -9,6 +9,8 @@ PocketChat consists of three main components that work together to provide secur
 1. **[Drive Backend](https://github.com/pocketchat/drive-backend)** - Local API server handling encryption and storage
 2. **[Drive Frontend](https://github.com/pocketchat/drive-frontend)** - React/Next.js user interface
 3. **[Relay Server](https://github.com/pocketchat/relay-server)** - Zero-knowledge message relay service
+
+If you haven't yet figured it out, one for each dot in our logo.
 
 ## Quick Start
 
